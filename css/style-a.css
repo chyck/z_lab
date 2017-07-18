@@ -1420,7 +1420,7 @@ body {
   font-size: 32px;
   font-weight: 300;
   line-height: 44px;
-  width: 68%;
+  width: 63%;
   margin: 43px 0px 0 158px;
 }
 
@@ -1765,6 +1765,7 @@ body {
 .innovation__inner__left {
   display: table-cell;
   vertical-align: top;
+  width: 50%;
 }
 .innovation__inner__left__header {
   color: #212121;
@@ -1778,14 +1779,14 @@ body {
 .innovation__inner__right {
   display: table-cell;
   padding-top: 28px;
+  width: 50%;
 }
 .innovation__inner__right__list__item {
   border-bottom: 1px solid #d7d7d7;
   padding-top: 16px;
   padding-left: 14px;
   padding-bottom: 15px;
-  width: 86%;
-  white-space: nowrap;
+  width: 100%;
 }
 .innovation__inner__right__list__item .number {
   color: #ff4910;
