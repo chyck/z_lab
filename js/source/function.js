@@ -33,6 +33,13 @@ $( document ).ready(function() {
         }, 1000);
         return false;
     });
+    $('.js-mega-link').click(function(){
+        var el = $(this).attr('href');
+        $('body').animate({
+            scrollTop: $(el).offset().top - 60
+        }, 1000);
+        return false;
+    });
     $(window).scroll(function()
     {
         if($(window).scrollTop() > 100){
