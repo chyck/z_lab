@@ -1,5 +1,5 @@
 .icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
-  background-image: url('../images/sprites/icons-sde2cabbe6a.png');
+  background-image: url('../images/sprites/icons-sf72784ceba.png');
   background-repeat: no-repeat;
 }
 
@@ -11,31 +11,31 @@
 }
 
 .icon-unilever {
-  background-position: 0 -1357px;
+  background-position: 0 -1353px;
   height: 23px;
   width: 99px;
 }
 
 .icon-h {
-  background-position: 0 -1142px;
+  background-position: 0 -1138px;
   height: 35px;
   width: 36px;
 }
 
 .icon-north-face {
-  background-position: 0 -1265px;
+  background-position: 0 -1261px;
   height: 30px;
   width: 65px;
 }
 
 .icon-slash {
-  background-position: 0 -1323px;
+  background-position: 0 -1319px;
   height: 29px;
   width: 29px;
 }
 
 .icon-coca-cola {
-  background-position: 0 -1014px;
+  background-position: 0 -1010px;
   height: 30px;
   width: 93px;
 }
@@ -47,7 +47,7 @@
 }
 
 .icon-jetblue {
-  background-position: 0 -1205px;
+  background-position: 0 -1201px;
   height: 26px;
   width: 77px;
 }
@@ -59,7 +59,7 @@
 }
 
 .icon-ideo {
-  background-position: 0 -1182px;
+  background-position: 0 -1178px;
   height: 18px;
   width: 80px;
 }
@@ -71,49 +71,49 @@
 }
 
 .icon-google {
-  background-position: 0 -1108px;
+  background-position: 0 -1104px;
   height: 29px;
   width: 88px;
 }
 
 .icon-facebook {
-  background-position: 0 -1049px;
+  background-position: 0 -1045px;
   height: 20px;
   width: 96px;
 }
 
 .icon-ford {
-  background-position: 0 -1074px;
+  background-position: 0 -1070px;
   height: 29px;
   width: 73px;
 }
 
 .icon-walmart {
-  background-position: 0 -1385px;
+  background-position: 0 -1381px;
   height: 27px;
   width: 112px;
 }
 
 .icon-netflix {
-  background-position: 0 -1236px;
+  background-position: 0 -1232px;
   height: 24px;
   width: 85px;
 }
 
 .icon-samsung {
-  background-position: 0 -1300px;
+  background-position: 0 -1296px;
   height: 18px;
   width: 120px;
 }
 
 .icon-calendar {
   background-position: 0 -887px;
-  height: 16px;
+  height: 12px;
   width: 14px;
 }
 
 .icon-check {
-  background-position: 0 -908px;
+  background-position: 0 -904px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
@@ -127,7 +127,7 @@
 }
 
 .icon-choovak {
-  background-position: 0 -925px;
+  background-position: 0 -921px;
   height: 84px;
   width: 54px;
 }

@@ -11,7 +11,7 @@ body
 }
 .top{
   display: table;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto 100px auto;
   width: 100%;
   &__header{
@@ -223,6 +223,9 @@ body
 .innovators{
   background: url(../images/design-bg.png) 0 25px no-repeat;
   padding-bottom: 178px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   &__inner{
     width: 100%;
     max-width: 1280px;
@@ -288,6 +291,7 @@ body
 .thinking{
   width: 100%;
   max-width: 1920px;
+  margin: 0 auto;
   &__inner{
     width: 100%;
     max-width: 1758px;
@@ -429,7 +433,7 @@ body
   &__row{
     display: table;
     border-collapse: separate;
-    border-spacing: 1px;
+    border-spacing: 5px;
     &__item{
       display: table-cell;
       width: 20%;
@@ -630,13 +634,14 @@ body
     &__right{
       width: 100%;
       background-color: #fff;
-      display: table-cell;
+      display: table;
       vertical-align: top;
       padding: 67px 0 0px 160px;
       &__item{
-        padding-bottom: 50px;
+        display: table-row;
         img{
           float: left;
+          margin-bottom: 35px;
         }
         .icon{
           display: table-cell;
@@ -649,7 +654,7 @@ body
           font-weight: 300;
           line-height: 20px;
           padding-left: 43px;
-          width: 21%;
+          width: 15%;
           vertical-align: top;
           padding-top: 20px;
         }
@@ -663,6 +668,7 @@ body
           padding-left: 83px;
           padding-top: 15px;
           position: relative;
+          vertical-align: top;
           &:before{
             content: '';
             position: absolute;
@@ -798,6 +804,8 @@ body
 .table-for-btn{
   display: table;
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   &__left{
     display: table-cell;
     width: 33.4%;
@@ -913,6 +921,7 @@ body
   display: table;
   width: 100%;
   max-width: 1920px;
+  margin: 0 auto;
   &__top{
     display: table-row;
     &__left{
@@ -958,6 +967,7 @@ body
         line-height: 28px;
         border-bottom: 1px solid #dcdcdc;
         padding: 20px 0;
+        width: 53%;
       }
     }
   }
@@ -1025,6 +1035,9 @@ body
 }
 
 .office-photo{
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   &__left{
     height: 660px;
     width: 45.6%;
@@ -1032,7 +1045,7 @@ body
     float: left;
   }
   &__right{
-    width: 54.4%;
+    width: 54.3%;
     background: url(../images/office-photo-right-bg.png) center no-repeat;
     height: 660px;
     display: table-cell;
@@ -1139,7 +1152,7 @@ body
           text-align: right;
           .day{
             color: #ff4910;
-            font-family: "FSElliotProLightHeavy";
+            font-family: "FSElliotProLightBold";
             font-size: 32px;
             font-weight: 800;
             line-height: 22px;
@@ -1166,6 +1179,7 @@ body
           display: block;
           padding: 23px 0 0 0;
           line-height: 4px;
+          text-transform: uppercase;
         }
       }
       &:hover{

@@ -1,4 +1,7 @@
 $( document ).ready(function() {
+
+    $topPart = $('.about-hide__top').height();
+    $bottPart = $('.about-hide__bott').height();
     $('.js-btn').click(function () {
         table = $('.js-about-hide');
         table.toggleClass('active-table');
@@ -8,7 +11,7 @@ $( document ).ready(function() {
                 transform: 'rotate(-90deg)'
             })
             table.animate({
-                height: 736
+                height: $topPart + $bottPart
             }, 800)
         }
         else {

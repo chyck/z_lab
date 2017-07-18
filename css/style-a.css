@@ -219,7 +219,7 @@ select:focus:required:invalid:focus {
 }
 
 .icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
-  background-image: url('../images/sprites/icons-sde2cabbe6a.png');
+  background-image: url('../images/sprites/icons-sf72784ceba.png');
   background-repeat: no-repeat;
 }
 
@@ -233,31 +233,31 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-unilever {
-  background-position: 0 -1357px;
+  background-position: 0 -1353px;
   height: 23px;
   width: 99px;
 }
 
 .icon-h {
-  background-position: 0 -1142px;
+  background-position: 0 -1138px;
   height: 35px;
   width: 36px;
 }
 
 .icon-north-face {
-  background-position: 0 -1265px;
+  background-position: 0 -1261px;
   height: 30px;
   width: 65px;
 }
 
 .icon-slash {
-  background-position: 0 -1323px;
+  background-position: 0 -1319px;
   height: 29px;
   width: 29px;
 }
 
 .icon-coca-cola {
-  background-position: 0 -1014px;
+  background-position: 0 -1010px;
   height: 30px;
   width: 93px;
 }
@@ -269,7 +269,7 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-jetblue {
-  background-position: 0 -1205px;
+  background-position: 0 -1201px;
   height: 26px;
   width: 77px;
 }
@@ -281,7 +281,7 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-ideo {
-  background-position: 0 -1182px;
+  background-position: 0 -1178px;
   height: 18px;
   width: 80px;
 }
@@ -293,49 +293,49 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-google {
-  background-position: 0 -1108px;
+  background-position: 0 -1104px;
   height: 29px;
   width: 88px;
 }
 
 .icon-facebook {
-  background-position: 0 -1049px;
+  background-position: 0 -1045px;
   height: 20px;
   width: 96px;
 }
 
 .icon-ford {
-  background-position: 0 -1074px;
+  background-position: 0 -1070px;
   height: 29px;
   width: 73px;
 }
 
 .icon-walmart {
-  background-position: 0 -1385px;
+  background-position: 0 -1381px;
   height: 27px;
   width: 112px;
 }
 
 .icon-netflix {
-  background-position: 0 -1236px;
+  background-position: 0 -1232px;
   height: 24px;
   width: 85px;
 }
 
 .icon-samsung {
-  background-position: 0 -1300px;
+  background-position: 0 -1296px;
   height: 18px;
   width: 120px;
 }
 
 .icon-calendar {
   background-position: 0 -887px;
-  height: 16px;
+  height: 12px;
   width: 14px;
 }
 
 .icon-check {
-  background-position: 0 -908px;
+  background-position: 0 -904px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
@@ -349,7 +349,7 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-choovak {
-  background-position: 0 -925px;
+  background-position: 0 -921px;
   height: 84px;
   width: 54px;
 }
@@ -720,7 +720,7 @@ body {
 
 .top {
   display: table;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto 100px auto;
   width: 100%;
 }
@@ -932,6 +932,9 @@ body {
 .innovators {
   background: url(../images/design-bg.png) 0 25px no-repeat;
   padding-bottom: 178px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .innovators__inner {
   width: 100%;
@@ -997,6 +1000,7 @@ body {
 .thinking {
   width: 100%;
   max-width: 1920px;
+  margin: 0 auto;
 }
 .thinking__inner {
   width: 100%;
@@ -1137,7 +1141,7 @@ body {
 .steps__row {
   display: table;
   border-collapse: separate;
-  border-spacing: 1px;
+  border-spacing: 5px;
 }
 .steps__row__item {
   display: table-cell;
@@ -1336,15 +1340,16 @@ body {
 .about__top__right {
   width: 100%;
   background-color: #fff;
-  display: table-cell;
+  display: table;
   vertical-align: top;
   padding: 67px 0 0px 160px;
 }
 .about__top__right__item {
-  padding-bottom: 50px;
+  display: table-row;
 }
 .about__top__right__item img {
   float: left;
+  margin-bottom: 35px;
 }
 .about__top__right__item .icon {
   display: table-cell;
@@ -1357,7 +1362,7 @@ body {
   font-weight: 300;
   line-height: 20px;
   padding-left: 43px;
-  width: 21%;
+  width: 15%;
   vertical-align: top;
   padding-top: 20px;
 }
@@ -1371,6 +1376,7 @@ body {
   padding-left: 83px;
   padding-top: 15px;
   position: relative;
+  vertical-align: top;
 }
 .about__top__right__item .positin:before {
   content: '';
@@ -1501,6 +1507,8 @@ body {
 .table-for-btn {
   display: table;
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .table-for-btn__left {
   display: table-cell;
@@ -1610,6 +1618,7 @@ body {
   display: table;
   width: 100%;
   max-width: 1920px;
+  margin: 0 auto;
 }
 .details__top {
   display: table-row;
@@ -1658,6 +1667,7 @@ body {
   line-height: 28px;
   border-bottom: 1px solid #dcdcdc;
   padding: 20px 0;
+  width: 53%;
 }
 .details__bottom {
   display: table-row;
@@ -1718,6 +1728,11 @@ body {
   width: 84%;
 }
 
+.office-photo {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
 .office-photo__left {
   height: 660px;
   width: 45.6%;
@@ -1725,7 +1740,7 @@ body {
   float: left;
 }
 .office-photo__right {
-  width: 54.4%;
+  width: 54.3%;
   background: url(../images/office-photo-right-bg.png) center no-repeat;
   height: 660px;
   display: table-cell;
@@ -1834,7 +1849,7 @@ body {
 }
 .more__table .more__item__head .date .day {
   color: #ff4910;
-  font-family: "FSElliotProLightHeavy";
+  font-family: "FSElliotProLightBold";
   font-size: 32px;
   font-weight: 800;
   line-height: 22px;
@@ -1858,6 +1873,7 @@ body {
   display: block;
   padding: 23px 0 0 0;
   line-height: 4px;
+  text-transform: uppercase;
 }
 .more__table .more__item:hover {
   cursor: pointer;
