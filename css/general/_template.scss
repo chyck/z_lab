@@ -1,0 +1,45 @@
+html{
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+html,
+body,
+.container {
+	height: 100%;
+    width: 100%;
+	min-width: 1136px;
+}
+body {
+	font: $basefont $regular;
+	color: $textColor;
+	background-color: $white;
+	line-height: 1.6;
+	position: relative;
+	word-wrap: break-word;
+	@include select-color();
+}
+.container {
+	height: auto;
+	min-height: 100%;
+}
+@font-face {
+	font-family: 'FSElliotPro';
+	src: url(../fonts/FSElliotPro.otf);
+}
+@font-face {
+	font-family: 'FSElliotProLight';
+	src: url(../fonts/FSElliotPro-Light.otf);
+}
+@font-face {
+	font-family: 'FSElliotProLightThin';
+	src: url(../fonts/FSElliotPro-Thin.otf);
+}
+@font-face {
+	font-family: 'FSElliotProLightHeavy';
+	src: url(../fonts/FSElliotPro-Heavy.otf);
+}
+@font-face {
+	font-family: 'FSElliotProLightBold';
+	src: url(../fonts/FSElliotPro-Bold.otf);
+}

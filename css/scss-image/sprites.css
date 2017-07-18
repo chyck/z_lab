@@ -1,0 +1,138 @@
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+  background-image: url('../images/sprites/icons-sde2cabbe6a.png');
+  background-repeat: no-repeat;
+}
+
+.inline-block, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+.icon-unilever {
+  background-position: 0 -1357px;
+  height: 23px;
+  width: 99px;
+}
+
+.icon-h {
+  background-position: 0 -1142px;
+  height: 35px;
+  width: 36px;
+}
+
+.icon-north-face {
+  background-position: 0 -1265px;
+  height: 30px;
+  width: 65px;
+}
+
+.icon-slash {
+  background-position: 0 -1323px;
+  height: 29px;
+  width: 29px;
+}
+
+.icon-coca-cola {
+  background-position: 0 -1014px;
+  height: 30px;
+  width: 93px;
+}
+
+.icon-air-bnb {
+  background-position: 0 -89px;
+  height: 31px;
+  width: 94px;
+}
+
+.icon-jetblue {
+  background-position: 0 -1205px;
+  height: 26px;
+  width: 77px;
+}
+
+.icon-amazon {
+  background-position: 0 -125px;
+  height: 22px;
+  width: 115px;
+}
+
+.icon-ideo {
+  background-position: 0 -1182px;
+  height: 18px;
+  width: 80px;
+}
+
+.icon-apple {
+  background-position: 0 -152px;
+  height: 29px;
+  width: 24px;
+}
+
+.icon-google {
+  background-position: 0 -1108px;
+  height: 29px;
+  width: 88px;
+}
+
+.icon-facebook {
+  background-position: 0 -1049px;
+  height: 20px;
+  width: 96px;
+}
+
+.icon-ford {
+  background-position: 0 -1074px;
+  height: 29px;
+  width: 73px;
+}
+
+.icon-walmart {
+  background-position: 0 -1385px;
+  height: 27px;
+  width: 112px;
+}
+
+.icon-netflix {
+  background-position: 0 -1236px;
+  height: 24px;
+  width: 85px;
+}
+
+.icon-samsung {
+  background-position: 0 -1300px;
+  height: 18px;
+  width: 120px;
+}
+
+.icon-calendar {
+  background-position: 0 -887px;
+  height: 16px;
+  width: 14px;
+}
+
+.icon-check {
+  background-position: 0 -908px;
+  height: 12px;
+  width: 17px;
+  margin-right: 23px;
+}
+
+.icon-btn {
+  background-position: 0 -870px;
+  height: 12px;
+  width: 17px;
+  margin-right: 23px;
+}
+
+.icon-choovak {
+  background-position: 0 -925px;
+  height: 84px;
+  width: 54px;
+}
+.icon-choovak:hover {
+  background-position: 0 0;
+  height: 84px;
+  width: 54px;
+}

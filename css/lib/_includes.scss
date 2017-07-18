@@ -1,0 +1,25 @@
+.i-clearfix{
+  @extend .clearfix;
+}
+.i-relative{
+  position: relative;
+}
+
+.i-hide {
+  display: none !important;
+}
+.i-show {
+  display: block;
+}
+.i-text-hide {
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+}
+
+.i-invisible {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  visibility: hidden;
+}

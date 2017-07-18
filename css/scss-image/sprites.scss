@@ -1,0 +1,70 @@
+@import "sprites-config";
+.icon-unilever{
+  @include ib-icons(icon-unilever);
+}
+.icon-h{
+  @include ib-icons(icon-h);
+}
+.icon-north-face{
+  @include ib-icons(icon-north-face);
+}
+.icon-slash{
+  @include ib-icons(icon-slash);
+}
+.icon-coca-cola{
+  @include ib-icons(icon-coca-cola);
+}
+.icon-air-bnb{
+  @include ib-icons(icon-air-bnb);
+}
+.icon-jetblue{
+  @include ib-icons(icon-jetblue);
+}
+.icon-amazon{
+  @include ib-icons(icon-amazon);
+}
+.icon-ideo{
+  @include ib-icons(icon-ideo);
+}
+.icon-apple{
+  @include ib-icons(icon-apple);
+}
+.icon-google{
+  @include ib-icons(icon-google);
+}
+.icon-facebook{
+  @include ib-icons(icon-facebook);
+}
+.icon-ford{
+  @include ib-icons(icon-ford);
+}
+.icon-walmart{
+  @include ib-icons(icon-walmart);
+}
+.icon-netflix{
+  @include ib-icons(icon-netflix);
+}
+.icon-samsung{
+  @include ib-icons(icon-samsung);
+}
+.icon-calendar{
+  @include ib-icons(icon-calendar);
+}
+.icon-check{
+  @include ib-icons(icon-check);
+  margin-right: 23px;
+}
+.icon-btn{
+  @include ib-icons(icon-btn);
+  margin-right: 23px;
+}
+.icon-choovak{
+  @include ib-icons(icon-choovak);
+  &:hover{
+    @include ib-icons(hover);
+  }
+}
+
+
+
+
