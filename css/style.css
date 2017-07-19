@@ -12,7 +12,7 @@
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -228,14 +228,14 @@ select:focus:required:invalid:focus {
   box-shadow: 0 0 6px #f8b9b7;
 }
 
-.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
   background-image: url('../images/sprites/icons-sc78c77c1ae.png');
   background-repeat: no-repeat;
 }
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -369,9 +369,15 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
   width: 54px;
 }
 
+.active-choovak {
+  background-position: 0 0;
+  height: 84px;
+  width: 54px;
+}
+
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -746,8 +752,23 @@ body {
 }
 .top__header__inner__left {
   display: table-cell;
-  width: 25%;
-  padding: 9px 0;
+  width: 20%;
+  padding: 9px 0 9px 50px;
+}
+.top__header__inner__btn {
+  display: table-cell;
+  width: 23%;
+  vertical-align: middle;
+}
+.top__header__inner__btn .header-btn {
+  border: 1px solid #666;
+  color: #ff3d00;
+  text-decoration: none;
+  padding: 9px 20px;
+  border-radius: 5px;
+  display: none;
+  font-family: "FS Elliot Pro";
+  font-size: 16px;
 }
 .top__header__inner__right {
   display: table-cell;
@@ -833,7 +854,7 @@ body {
   height: 1px;
   border-top: 1px solid #ff4910;
   left: -50px;
-  top: 10px;
+  top: 5px;
 }
 .top__left__description {
   color: #212121;
@@ -960,7 +981,7 @@ body {
   line-height: 27px;
   float: right;
   width: 75%;
-  padding-left: 121px;
+  padding-left: 80px;
 }
 .about-lab__bottom__right .members-top {
   display: block;
@@ -1489,10 +1510,10 @@ body {
 }
 .about-hide__top__right__wrapp {
   width: 81%;
-  margin-left: 162px;
-  margin-top: 0px;
   background: url("../images/hide-bg.png") top right no-repeat;
   padding-top: 32px;
+  margin: 0 auto;
+  padding-bottom: 70px;
 }
 .about-hide__top__right__wrapp .basic {
   color: #898989;
@@ -1540,11 +1561,14 @@ body {
   background-color: #ffffff;
 }
 .about-hide__bott__right__wrapp {
-  width: 756px;
   border-top: 1px solid #e1e1e1;
-  margin-left: 156px;
-  margin-top: 29px;
   padding-top: 57px;
+  margin: 29px auto 0;
+  text-align: center;
+}
+.about-hide__bott__right__wrapp img {
+  width: 100%;
+  max-width: 825px;
 }
 
 .table-for-btn {
@@ -2080,7 +2104,7 @@ a.mega-link:before {
   opacity: .29;
 }
 
-@media (max-width: 1136px) {
+@media (max-width: 1280px) {
   .wrapper {
     overflow: hidden;
   }
@@ -2107,6 +2131,9 @@ a.mega-link:before {
   .top__right {
     background-image: none;
     background-color: #ff3d00;
+  }
+  .top__header__inner__btn .header-btn {
+    font-size: 26px;
   }
   .top__header__inner__lang {
     width: 5%;

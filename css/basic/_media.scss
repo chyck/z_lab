@@ -1,4 +1,4 @@
-@media (max-width: 1136px) {
+@media (max-width: 1280px) {
   .wrapper{
     overflow: hidden;
   }
@@ -28,6 +28,11 @@
     }
     &__header{
       &__inner{
+        &__btn{
+          .header-btn{
+           font-size: 26px;
+          }
+        }
         &__lang{
           width: 5%;
         }

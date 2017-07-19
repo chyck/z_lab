@@ -47,14 +47,24 @@ $( document ).ready(function() {
     {
         if($(window).scrollTop() > 100){
             $('.js-header').addClass('active-scroll');
-            $('.js-logo').attr('src', 'images/logo-scroll.png')
+            $('.js-logo').attr('src', 'images/logo-scroll.png');
+            $('.header-btn').css({
+                display: 'inline-block'
+            });
         }
         else {
             $('.js-header').removeClass('active-scroll');
-            $('.js-logo').attr('src', 'images/logo.png')
+            $('.js-logo').attr('src', 'images/logo.png');
+            $('.header-btn').css({
+                display: 'inline-block'
+            });
         }
     });
     $('.js-vacansy').click(function () {
+        $('.icon-choovak').each(function () {
+            $(this).removeClass('active-choovak');
+        });
+        $(this).find('.icon-choovak').addClass('active-choovak');
         $('.you-need').each(function () {
             $(this).css({
                 display: 'none'
