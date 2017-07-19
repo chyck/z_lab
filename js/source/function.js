@@ -56,7 +56,7 @@ $( document ).ready(function() {
             $('.js-header').removeClass('active-scroll');
             $('.js-logo').attr('src', 'images/logo.png');
             $('.header-btn').css({
-                display: 'inline-block'
+                display: 'none'
             });
         }
     });
