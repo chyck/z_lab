@@ -28,14 +28,18 @@ body
       border-bottom: 2px solid #212121;
       &__left{
         display: table-cell;
-        width: 50%;
+        width: 25%;
         padding: 9px 0;
       }
       &__right{
         display: table-cell;
         width: 50%;
         vertical-align: middle;
-        text-align: center;
+        text-align: right;
+      }
+      &__lang{
+        display: table-cell;
+        width: 8%;
       }
     }
     &__list{
@@ -47,7 +51,19 @@ body
         line-height: 36px;
         text-transform: uppercase;
         float: left;
-        margin: 0 17px;
+        margin: 0 10px;
+        &_ua{
+          position: relative;
+          &:before{
+            content: '';
+            position: absolute;
+            height: 25px;
+            width: 1px;
+            border-left: 1px solid #898989;
+            left: -10px;
+            top: 5px;
+          }
+        }
         a{
           color: #ffffff;
           text-decoration: none;
@@ -59,6 +75,11 @@ body
           color: #919191;
           &:hover{
             color: #919191;
+          }
+        }
+        &_active{
+          a{
+            color: #212121;
           }
         }
       }
@@ -83,9 +104,22 @@ body
       font-weight: 400;
       line-height: 14px;
       text-transform: uppercase;
-      width: 75%;
       float: right;
       margin-bottom: 10px;
+      position: relative;
+      width: 599px;
+      right: -157px;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        width: 42px;
+        height: 1px;
+        border-top: 1px solid #ff4910;
+        left: -50px;
+        top: 10px;
+
+      }
     }
     &__description{
       color: #212121;
@@ -96,6 +130,12 @@ body
       position: relative;
       width: 599px;
       right: -157px;
+    }
+    .top-btn-wrapp{
+      position: relative;
+      width: 599px;
+      right: -157px;
+      display: flex;
     }
   }
   &__right{
@@ -407,7 +447,7 @@ body
       height: 1px;
       background-color: #212121;
       position: absolute;
-      top: 59px;
+      bottom: -15px;
       left: 2px;
     }
   }
@@ -968,6 +1008,14 @@ body
         border-bottom: 1px solid #dcdcdc;
         padding: 20px 0;
         width: 53%;
+        padding-left: 40px;
+        position: relative;
+        .icon-check{
+          position: absolute;
+          left: 0;
+          top: 50%;
+          margin-top: -6px;
+        }
       }
     }
   }
@@ -1093,18 +1141,24 @@ body
           padding-bottom: 15px;
           width: 100%;
           //white-space: nowrap;
+          position: relative;
           .number{
             color: #ff4910;
             font-family: "FSElliotProLightBold";
             font-size: 14px;
             font-weight: 700;
             line-height: 37px;
+            position: absolute;
+            display: inline-block;
+            top: 50%;
+            margin-top: -17px;
           }
           .text{
             color: #212121;
             font-family: "FSElliotPro";
             font-size: 16px;
             padding-left: 29px;
+            display: inline-block;
           }
           &_last{
             border-bottom: none;
@@ -1233,7 +1287,7 @@ body
     }
     &_third{
       width: 15%;
-      padding-left: 46px;
+      padding-left: 38px;
     }
     &__list{
       &__item{

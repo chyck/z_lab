@@ -1,3 +1,594 @@
 @media (max-width: 1136px) {
+  .wrapper{
+    overflow: hidden;
+  }
+  .top {
+    &__left {
+      background-image: none;
+      background-color: #ffffff;
+      width: 80%;
+      &__head{
+        float: left;
+        font-size: 21px;
+        line-height: 24px;
+        left: 100px;
+      }
+      &__description{
+        left: 100px;
+        font-size: 60px;
+        line-height: 62px;
+      }
+      .top-btn-wrapp{
+        left: 100px;
+      }
+    }
+    &__right {
+      background-image: none;
+      background-color: #ff3d00;
+    }
+    &__header{
+      &__inner{
+        &__lang{
+          width: 5%;
+        }
+        &__right{
+          display: none;
+        }
+      }
+        &__list{
+          &__item{
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+    }
+  }
 
+  .about-lab{
+    &__top{
+      &__left{
+        display: block;
+        width: 100%;
+        padding: 45px 60px 45px;
+        &__head{
+          font-size: 38px;
+          line-height: 44px;
+          margin: 0;
+        }
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        padding: 45px 45px;
+        &__head{
+          font-size: 42px;
+          line-height: 54px;
+        }
+      }
+    }
+    &__bottom{
+      background-color: #ffffff;
+      &__left{
+        display: inline-block;
+        width: 100%;
+        padding: 35px 45px;
+        &:before{
+          content: '';
+          display: none;
+        }
+        &__header{
+          font-size: 41px;
+          line-height: 36px;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        &__description{
+          font-size: 21px;
+          line-height: 30px;
+        }
+      }
+      &__right{
+        display: block;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        &__head{
+          font-size: 42px;
+          line-height: 54px;
+        }
+        .help{
+          width: 50%;
+          font-size: 26px;
+          line-height: 37px;
+        }
+        .members{
+          width: 50%;
+          font-size: 26px;
+          line-height: 37px;
+          padding-left: 0;
+        }
+      }
+    }
+
+
+  }
+  .innovators {
+    background-image: none;
+    &__inner {
+      width: 69%;
+      max-width: 100%;
+    }
+    &__header {
+      font-size: 38px;
+      width: 100%;
+      text-align: center;
+      line-height: 36px;
+
+    }
+    &__description {
+      font-size: 21px;
+      width: 100%;
+      text-align: left;
+      line-height: 30px;
+    }
+    &__table {
+      &__item {
+        &__logo {
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+          padding: 16px 0;
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  .thinking {
+    &__inner {
+      .top-table {
+        &__left {
+          display: block;
+          width: 100%;
+          &__solutions{
+            margin-bottom: 2px;
+          }
+        }
+        &__right{
+          display: block;
+          width: 100%;
+          &__top{
+            &__right{
+              &__metod{
+
+              }
+            }
+          }
+        }
+      }
+    }
+    .text{
+      font-size: 27px;
+      line-height: 30px;
+    }
+  }
+
+  .steps{
+    width: 90%;
+    bottom: 0;
+    padding-bottom: 50px;
+    &__header{
+      font-size: 38px;
+      width: 50%;
+    }
+    &__row{
+      text-align: center;
+      &__item{
+        display: inline-block;
+        width: 40%;
+        margin: 10px 11px;
+        text-align: left;
+      }
+    }
+  }
+  .team{
+    width: 90%;
+    &__header{
+      font-size: 38px;
+      line-height: 40px;
+    }
+    &__table{
+      &__row{
+        &__item{
+          display: inline-block;
+          width: 33.2%;
+        }
+      }
+    }
+  }
+
+  .about{
+    background-color: #fff;
+    &__top{
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      &__left{
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 15px 0 50px 30px;
+        &__head{
+          font-size: 38px;
+        }
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        padding: 80px 45px;
+        &__item{
+          .name{
+            font-size: 29px;
+            line-height: 29px;
+            width: 31%;
+          }
+          .positin{
+            font-size: 24px;
+            line-height: 34px;
+            span{
+              width: 100%;
+            }
+            &:before{
+              content: '';
+              top: 33px;
+            }
+          }
+        }
+      }
+    }
+    &__bott{
+      &__left{
+        display: block;
+        width: 100%;
+        &__head{
+          float: none;
+          width: 100%;
+          font-size: 38px;
+          line-height: 42px;
+          display: inline-block;
+          margin: 50px 0 90px 40px;
+        }
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        .design{
+          color: #212121;
+          font-family: "FSElliotProLight";
+          font-size: 42px;
+          font-weight: 300;
+          line-height: 49px;
+          width: 90%;
+          margin: 40px 0 0 40px;
+        }
+      }
+    }
+  }
+  .table-for-btn{
+    &__left{
+      display: none;
+    }
+  }
+  .active{
+    &__inner{
+      width: 90%;
+      &__left{
+        display: block;
+        width: 100%;
+        &__header{
+          font-size: 38px;
+          line-height: 42px;
+          margin-left: 30px;
+        }
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        &__list{
+          &__row{
+            display: block;
+            text-align: right;
+          }
+          &__item{
+            font-size: 32px;
+            line-height: 32px;
+            display: inline-block;
+            text-align: left;
+            width: 70%;
+            padding-left: 39px;
+            &:before{
+              content: '';
+              left: 0;
+              width: 90%;
+            }
+            &:after{
+              content: '';
+              left: 0;
+            }
+          }
+        }
+        &:before{
+          content: '';
+        }
+      }
+    }
+  }
+.details{
+  &__top{
+    background-color: #ffffff;
+    &__left{
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 40px 0;
+      &__header{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 38px;
+        line-height: 42px;
+        margin: 0;
+        margin-bottom: 15px;
+      }
+      &__description{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 27px;
+        line-height: 32px;
+        margin: 0;
+      }
+    }
+    &__right{
+      display: block;
+      width: 90%;
+      margin: 40px auto;
+      padding: 0;
+      &__list{
+        &__item{
+          width: 100%;
+          font-size: 26px;
+          line-height: 38px;
+        }
+      }
+    }
+  }
+  &__bottom{
+    &__left{
+      display: block;
+      width: 100%;
+      background-image: none;
+      padding-bottom: 40px;
+      &__header{
+        font-size: 21px;
+        line-height: 30px;
+      }
+      &__description{
+        font-size: 30px;
+        line-height: 30px;
+      }
+    }
+    &__right__description{
+      display: block;
+      width: 100%;
+      padding: 50px 0 50px 0;
+      p{
+        width: 75%;
+        margin: 0 auto;
+        font-size: 40px;
+        line-height: 48px;
+      }
+    }
+  }
+}
+.office-photo{
+  &__left{
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  &__right{
+    float: none;
+    display: block;
+    width: 100%;
+
+  }
+}
+
+  .innovation{
+    &__inner{
+      width: 90%;
+      &__left{
+        display: block;
+        width: 100%;
+        &__header{
+          font-size: 38px;
+          line-height: 42px;
+        }
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        &__list{
+          &__item{
+            .number{
+              font-size: 24px;
+              line-height: 47px;
+              margin-top: -24px;
+            }
+            .text{
+              font-size: 26px;
+              padding-left: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+.more{
+  &__inner{
+    width: 90%;
+  }
+  &__header{
+    display: block;
+    width: 100%;
+    padding: 25px 25px 0 25px;
+  }
+  &__table{
+    text-align: center;
+    .more__item{
+      display: inline-block;
+      width: 48%;
+      margin: 5px;
+      text-align: left;
+      &__head{
+        .date{
+          .day{
+            font-size: 42px;
+            line-height: 32px;
+          }
+          .month{
+            font-size: 30px;
+            line-height: 32px;
+          }
+        }
+      }
+      &__foot{
+        .city{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+}
+  .footer{
+    &__inner{
+      width: 90%;
+    }
+    &__section{
+      display: block;
+      &__list{
+        &__item{
+          &_call{
+            font-size: 21px;
+            line-height: 24px;
+          }
+          &_lets{
+            font-size: 32px;
+            line-height: 33px;
+          }
+        }
+      }
+      &_first{
+        width: 100%;
+        margin-bottom: 40px;
+      }
+      &_second{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 40%;
+        .footer__section__list{
+          display: inline-block;
+          text-align: left;
+          &__head{
+            font-size: 23px;
+            line-height: 32px;
+          }
+          &__contact{
+            font-size: 23px;
+            line-height: 32px;
+          }
+        }
+        padding-bottom: 20px;
+      }
+      &_third{
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        text-align: left;
+        padding-left: 40%;
+        .footer__section__list{
+          display: inline-block;
+          text-align: left;
+          &__head{
+            font-size: 23px;
+            line-height: 32px;
+          }
+          &__contact{
+            font-size: 23px;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .btn, a.btn{
+    font-size: 23px;
+  }
+  a.mega-link{
+    font-size: 26px;
+    line-height: 37px
+  }
+  .about-hide{
+      &__top{
+        &__left{
+          display: block;
+          width: 100%;
+        }
+        &__right{
+          display: block;
+          width: 100%;
+          &__wrapp{
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            .basic{
+              font-size: 29px;
+              line-height: 35px;
+            }
+            .develop{
+              font-size: 26px;
+              line-height: 38px;
+            }
+          }
+        }
+      }
+      &__bott{
+        &__left{
+          display: block;
+          width: 100%;
+          background-color: #212121;
+          vertical-align: middle;
+          padding: 5px 50px 70px;
+          &__header{
+              float: none;
+            width: 100%;
+          }
+        }
+        &__right{
+          display: block;
+          width: 100%;
+          &__wrapp{
+            margin: 0;
+            width: 100%;
+            text-align: center;
+          }
+        }
+      }
+    }
 }

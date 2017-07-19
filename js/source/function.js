@@ -47,9 +47,11 @@ $( document ).ready(function() {
     {
         if($(window).scrollTop() > 100){
             $('.js-header').addClass('active-scroll');
+            $('.js-logo').attr('src', 'images/logo-scroll.png')
         }
         else {
             $('.js-header').removeClass('active-scroll');
+            $('.js-logo').attr('src', 'images/logo.png')
         }
     });
     $('.js-vacansy').click(function () {
