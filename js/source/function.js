@@ -6,7 +6,15 @@ $( document ).ready(function() {
         table = $('.js-about-hide');
         table.toggleClass('active-table');
         if (table.hasClass('active-table')){
-            $('.js-btn .change-text').text('Свернуть');
+            if($('html').attr('lang') == 'ru'){
+                $('.js-btn .change-text').text('Свернуть');
+            }
+            else if($('html').attr('lang') == 'ua'){
+                $('.js-btn .change-text').text('Згорнути');
+            }
+            else if($('html').attr('lang') == 'en'){
+                $('.js-btn .change-text').text('Hide');
+            }
             $('.js-ocon').css({
                 transform: 'rotate(-90deg)'
             })
@@ -18,7 +26,15 @@ $( document ).ready(function() {
             $('.js-ocon').css({
                 transform: 'rotate(0deg)'
             })
-            $('.js-btn .change-text').text('Узнать больше');
+            if($('html').attr('lang') == 'ru'){
+                $('.js-btn .change-text').text('Узнать больше');
+            }
+            else if($('html').attr('lang') == 'ua'){
+                $('.js-btn .change-text').text('Дізнатись більше');
+            }
+            else if($('html').attr('lang') == 'en'){
+                $('.js-btn .change-text').text('Learn more');
+            }
             table.animate({
                 height: 0
             }, 800)
