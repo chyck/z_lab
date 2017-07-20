@@ -745,7 +745,7 @@ body {
 }
 .top__header__inner {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
   display: table;
   border-bottom: 2px solid #212121;
@@ -767,12 +767,12 @@ body {
   padding: 9px 20px;
   border-radius: 5px;
   display: none;
-  font-family: "FS Elliot Pro";
+  font-family: "FS Elliot Pro","Arial", "sans-serif";
   font-size: 16px;
 }
 .top__header__inner__right {
   display: table-cell;
-  width: 50%;
+  width: 45%;
   vertical-align: middle;
   text-align: right;
 }
@@ -784,7 +784,7 @@ body {
   display: inline-block;
 }
 .top__header__list__item {
-  font-family: "FS Elliot Pro";
+  font-family: "FS Elliot Pro","Arial", "sans-serif";
   font-size: 10px;
   font-weight: 400;
   line-height: 36px;
@@ -828,14 +828,14 @@ body {
 }
 .top__left {
   display: table-cell;
-  width: 44.5%;
+  width: 41.5%;
   padding-top: 222px;
   background: #ffffff url("../images/top__left-bg.png") bottom left no-repeat;
   padding-bottom: 99px;
 }
 .top__left__head {
   color: #9c9c9c;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 11px;
   font-weight: 400;
   line-height: 14px;
@@ -858,23 +858,25 @@ body {
 }
 .top__left__description {
   color: #212121;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 50px;
   font-weight: 300;
   line-height: 52px;
   position: relative;
   width: 599px;
   right: -157px;
+  float: right;
 }
 .top__left .top-btn-wrapp {
   position: relative;
   width: 599px;
   right: -157px;
   display: flex;
+  float: right;
 }
 .top__right {
   display: table-cell;
-  width: 65.5%;
+  width: 63.5%;
   background: #ff3d00 url("../images/top__right-bg.png") bottom right no-repeat;
 }
 
@@ -895,7 +897,7 @@ body {
 }
 .about-lab__top__left__head {
   color: #ffffff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   line-height: 34px;
   margin: 80px 238px 0 0;
@@ -909,7 +911,7 @@ body {
 }
 .about-lab__top__right__head {
   color: #ff4910;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 32px;
   font-weight: 300;
   line-height: 44px;
@@ -949,7 +951,7 @@ body {
   color: #ffffff;
 }
 .about-lab__bottom__left__description {
-  font-family: "FS Elliot Pro";
+  font-family: "FS Elliot Pro","Arial", "sans-serif";
   font-size: 11px;
   font-weight: 400;
   line-height: 20px;
@@ -967,7 +969,7 @@ body {
 }
 .about-lab__bottom__right .help {
   color: #898989;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 19px;
   font-weight: 300;
   line-height: 25px;
@@ -976,7 +978,7 @@ body {
 }
 .about-lab__bottom__right .members {
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   line-height: 27px;
   float: right;
@@ -1012,7 +1014,7 @@ body {
 .innovators__header {
   display: inline-block;
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1038,7 +1040,7 @@ body {
 .innovators__description {
   display: inline-block;
   color: #9c9c9c;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 11px;
   font-weight: 400;
   line-height: 20px;
@@ -1163,7 +1165,7 @@ body {
 }
 .thinking .text {
   color: #fff;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
@@ -1195,7 +1197,7 @@ body {
 }
 .steps__header {
   color: #fff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 22px;
@@ -1218,7 +1220,7 @@ body {
 }
 .steps__row__item__head .munber {
   color: #ff4910;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 12px;
   font-weight: 400;
   line-height: 21px;
@@ -1226,7 +1228,7 @@ body {
 }
 .steps__row__item__head .date {
   color: #ffffff;
-  font-family: "FSElliotProLightHeavy";
+  font-family: "FSElliotProLightHeavy","Arial", "sans-serif";
   font-size: 20px;
   font-weight: 800;
   display: inline-block;
@@ -1249,11 +1251,13 @@ body {
 }
 .steps__row__item__foot .type {
   color: #ffffff;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   position: relative;
+  padding-right: 38px;
+  display: block;
 }
 .steps__row__item__foot .type:before {
   content: '';
@@ -1278,7 +1282,7 @@ body {
 }
 .team__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1299,7 +1303,7 @@ body {
   text-align: center;
   position: relative;
   color: #9c9c9c;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -1333,7 +1337,7 @@ body {
 }
 .you-need__left__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1346,14 +1350,14 @@ body {
 }
 .you-need__right__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
 }
 .you-need__list__item {
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
@@ -1396,7 +1400,7 @@ body {
 }
 .about__top__left__head {
   color: #ffffff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1421,7 +1425,7 @@ body {
 .about__top__right__item .name {
   display: table-cell;
   color: #9c9c9c;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 19px;
   font-weight: 300;
   line-height: 20px;
@@ -1433,7 +1437,7 @@ body {
 .about__top__right__item .positin {
   display: table-cell;
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
@@ -1464,7 +1468,7 @@ body {
 }
 .about__bott__left__head {
   color: #ffffff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1480,7 +1484,7 @@ body {
 }
 .about__bott__right .design {
   color: #212121;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 32px;
   font-weight: 300;
   line-height: 44px;
@@ -1517,7 +1521,7 @@ body {
 }
 .about-hide__top__right__wrapp .basic {
   color: #898989;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 19px;
   font-weight: 300;
   line-height: 25px;
@@ -1528,7 +1532,7 @@ body {
 }
 .about-hide__top__right__wrapp .develop {
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1547,7 +1551,7 @@ body {
 }
 .about-hide__bott__left__header {
   color: #fff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1610,7 +1614,7 @@ body {
 }
 .active__inner__left__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1631,7 +1635,7 @@ body {
 .active__inner__right__list__item {
   display: table-cell;
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -1699,7 +1703,7 @@ body {
 }
 .details__top__left__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1710,7 +1714,7 @@ body {
 }
 .details__top__left__description {
   color: #ffffff;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 17px;
   font-weight: 300;
   line-height: 22px;
@@ -1728,7 +1732,7 @@ body {
 }
 .details__top__right__list__item {
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1758,7 +1762,7 @@ body {
 }
 .details__bottom__left__header {
   color: #ffffff;
-  font-family: "FSElliotProLightBold";
+  font-family: "FSElliotProLightBold","Arial", "sans-serif";
   font-size: 11px;
   font-weight: 700;
   line-height: 20px;
@@ -1769,7 +1773,7 @@ body {
 }
 .details__bottom__left__description {
   color: #212121;
-  font-family: "FSElliotProLightHeavy";
+  font-family: "FSElliotProLightHeavy","Arial", "sans-serif";
   font-size: 20px;
   font-weight: 800;
   display: inline-block;
@@ -1794,7 +1798,7 @@ body {
   background-color: #ffffff;
   display: table-cell;
   color: #929292;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 30px;
   font-weight: 300;
   line-height: 38px;
@@ -1844,7 +1848,7 @@ body {
 }
 .innovation__inner__left__header {
   color: #212121;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1866,7 +1870,7 @@ body {
 }
 .innovation__inner__right__list__item .number {
   color: #ff4910;
-  font-family: "FSElliotProLightBold";
+  font-family: "FSElliotProLightBold","Arial", "sans-serif";
   font-size: 14px;
   font-weight: 700;
   line-height: 37px;
@@ -1877,7 +1881,7 @@ body {
 }
 .innovation__inner__right__list__item .text {
   color: #212121;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   padding-left: 29px;
   display: inline-block;
@@ -1901,7 +1905,7 @@ body {
 }
 .more__header {
   color: #ffffff;
-  font-family: "FSElliotProLightThin";
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
@@ -1931,14 +1935,14 @@ body {
 }
 .more__table .more__item__head .date .day {
   color: #ff4910;
-  font-family: "FSElliotProLightBold";
+  font-family: "FSElliotProLightBold","Arial", "sans-serif";
   font-size: 32px;
   font-weight: 800;
   line-height: 22px;
   display: block;
 }
 .more__table .more__item__head .date .month {
-  font-family: "FSElliotProLightHeavy";
+  font-family: "FSElliotProLightHeavy","Arial", "sans-serif";
   opacity: 0.3;
   color: #9c9c9c;
   font-size: 20px;
@@ -1948,7 +1952,7 @@ body {
 .more__table .more__item__foot .city {
   border-top: 1px solid #454545;
   color: #ffffff;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 14px;
   font-weight: 400;
   width: 100%;
@@ -2008,7 +2012,7 @@ body {
 }
 .footer__section__list__item_call {
   color: #9c9c9c;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 11px;
   font-weight: 400;
   line-height: 14px;
@@ -2026,14 +2030,14 @@ body {
 }
 .footer__section__list__item_lets {
   color: #212121;
-  font-family: "FSElliotProLight";
+  font-family: "FSElliotProLight","Arial", "sans-serif";
   font-size: 22px;
   font-weight: 300;
   line-height: 23px;
   padding-top: 21px;
 }
 .footer__section__list__head {
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
@@ -2053,7 +2057,7 @@ a.btn, .btn {
   border-radius: 4px;
   border: 1px solid #c7c7c7;
   color: #ff3d00;
-  font-family: "FSElliotPro";
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 13px;
   font-weight: 400;
   width: 267px;
@@ -2087,7 +2091,7 @@ a.btn_more, .btn_more {
 
 a.mega-link {
   color: #212121;
-  font-family: "FSElliotProLightBold";
+  font-family: "FSElliotProLightBold","Arial", "sans-serif";
   font-size: 16px;
   line-height: 27px;
   text-decoration: none;
@@ -2124,9 +2128,11 @@ a.mega-link:before {
     left: 100px;
     font-size: 60px;
     line-height: 62px;
+    float: none;
   }
   .top__left .top-btn-wrapp {
     left: 100px;
+    float: none;
   }
   .top__right {
     background-image: none;
@@ -2136,7 +2142,7 @@ a.mega-link:before {
     font-size: 26px;
   }
   .top__header__inner__lang {
-    width: 5%;
+    width: 10%;
   }
   .top__header__inner__right {
     display: none;
@@ -2271,6 +2277,10 @@ a.mega-link:before {
     width: 40%;
     margin: 10px 11px;
     text-align: left;
+  }
+  .steps__row__item__foot .type {
+    font-size: 22px;
+    line-height: 29px;
   }
 
   .team {
