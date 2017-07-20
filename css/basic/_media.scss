@@ -235,6 +235,7 @@
         padding: 15px 0 50px 30px;
         &__head{
           font-size: 38px;
+          float: none;
         }
       }
       &__right{
@@ -261,6 +262,35 @@
         }
       }
     }
+
+    &__midd{
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      padding: 40px 0;
+      &__left{
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 15px 0 50px 30px;
+
+      }
+
+      &__head{
+        font-size: 38px;
+        float: none;
+      }
+      &__right{
+        display: block;
+        width: 100%;
+        &__inner{
+          .descrip{
+            font-size: 25px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
     &__bott{
       &__left{
         display: block;
@@ -272,6 +302,8 @@
           line-height: 42px;
           display: inline-block;
           margin: 50px 0 90px 40px;
+          float: none;
+
         }
       }
       &__right{

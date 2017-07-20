@@ -1,9 +1,9 @@
-.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
-  background-image: url('../images/sprites/icons-sc78c77c1ae.png');
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
+  background-image: url('../images/sprites/icons-s2b3b8e7c26.png');
   background-repeat: no-repeat;
 }
 
-.inline-block, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
+.inline-block, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -11,123 +11,123 @@
 }
 
 .icon-unilever {
-  background-position: 0 -1353px;
+  background-position: 0 -1612px;
   height: 23px;
   width: 99px;
 }
 
 .icon-h {
-  background-position: 0 -1138px;
+  background-position: 0 -1397px;
   height: 35px;
   width: 36px;
 }
 
 .icon-north-face {
-  background-position: 0 -1261px;
+  background-position: 0 -1520px;
   height: 30px;
   width: 65px;
 }
 
 .icon-slash {
-  background-position: 0 -1319px;
+  background-position: 0 -1578px;
   height: 29px;
   width: 29px;
 }
 
 .icon-coca-cola {
-  background-position: 0 -1010px;
+  background-position: 0 -1184px;
   height: 30px;
   width: 93px;
 }
 
 .icon-air-bnb {
-  background-position: 0 -89px;
+  background-position: 0 -263px;
   height: 31px;
   width: 94px;
 }
 
 .icon-jetblue {
-  background-position: 0 -1201px;
+  background-position: 0 -1460px;
   height: 26px;
   width: 77px;
 }
 
 .icon-amazon {
-  background-position: 0 -125px;
+  background-position: 0 -299px;
   height: 22px;
   width: 115px;
 }
 
 .icon-ideo {
-  background-position: 0 -1178px;
+  background-position: 0 -1437px;
   height: 18px;
   width: 80px;
 }
 
 .icon-apple {
-  background-position: 0 -152px;
+  background-position: 0 -326px;
   height: 29px;
   width: 24px;
 }
 
 .icon-google {
-  background-position: 0 -1104px;
+  background-position: 0 -1363px;
   height: 29px;
   width: 88px;
 }
 
 .icon-facebook {
-  background-position: 0 -1045px;
+  background-position: 0 -1219px;
   height: 20px;
   width: 96px;
 }
 
 .icon-ford {
-  background-position: 0 -1070px;
+  background-position: 0 -1329px;
   height: 29px;
   width: 73px;
 }
 
 .icon-walmart {
-  background-position: 0 -1381px;
+  background-position: 0 -1640px;
   height: 27px;
   width: 112px;
 }
 
 .icon-netflix {
-  background-position: 0 -1232px;
+  background-position: 0 -1491px;
   height: 24px;
   width: 85px;
 }
 
 .icon-samsung {
-  background-position: 0 -1296px;
+  background-position: 0 -1555px;
   height: 18px;
   width: 120px;
 }
 
 .icon-calendar {
-  background-position: 0 -887px;
+  background-position: 0 -1061px;
   height: 12px;
   width: 14px;
 }
 
 .icon-check {
-  background-position: 0 -904px;
+  background-position: 0 -1078px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
 }
 
 .icon-btn {
-  background-position: 0 -870px;
+  background-position: 0 -1044px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
 }
 
 .icon-choovak {
-  background-position: 0 -921px;
+  background-position: 0 -1095px;
   height: 84px;
   width: 54px;
 }
@@ -141,4 +141,22 @@
   background-position: 0 0;
   height: 84px;
   width: 54px;
+}
+
+.icon-five {
+  background-position: 0 -1244px;
+  height: 80px;
+  width: 89px;
+}
+
+.icon-70 {
+  background-position: 0 -176px;
+  height: 82px;
+  width: 154px;
+}
+
+.icon-10 {
+  background-position: 0 -89px;
+  height: 82px;
+  width: 151px;
 }

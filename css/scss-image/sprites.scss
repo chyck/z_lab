@@ -67,6 +67,15 @@
 .active-choovak{
   @include ib-icons(hover);
 }
+.icon-five{
+  @include ib-icons(icon-five);
+}
+.icon-70{
+  @include ib-icons(icon-70);
+}
+.icon-10{
+  @include ib-icons(icon-10);
+}
 
 
 

@@ -12,7 +12,7 @@
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -228,14 +228,14 @@ select:focus:required:invalid:focus {
   box-shadow: 0 0 6px #f8b9b7;
 }
 
-.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
-  background-image: url('../images/sprites/icons-sc78c77c1ae.png');
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
+  background-image: url('../images/sprites/icons-s2b3b8e7c26.png');
   background-repeat: no-repeat;
 }
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -243,123 +243,123 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-unilever {
-  background-position: 0 -1353px;
+  background-position: 0 -1612px;
   height: 23px;
   width: 99px;
 }
 
 .icon-h {
-  background-position: 0 -1138px;
+  background-position: 0 -1397px;
   height: 35px;
   width: 36px;
 }
 
 .icon-north-face {
-  background-position: 0 -1261px;
+  background-position: 0 -1520px;
   height: 30px;
   width: 65px;
 }
 
 .icon-slash {
-  background-position: 0 -1319px;
+  background-position: 0 -1578px;
   height: 29px;
   width: 29px;
 }
 
 .icon-coca-cola {
-  background-position: 0 -1010px;
+  background-position: 0 -1184px;
   height: 30px;
   width: 93px;
 }
 
 .icon-air-bnb {
-  background-position: 0 -89px;
+  background-position: 0 -263px;
   height: 31px;
   width: 94px;
 }
 
 .icon-jetblue {
-  background-position: 0 -1201px;
+  background-position: 0 -1460px;
   height: 26px;
   width: 77px;
 }
 
 .icon-amazon {
-  background-position: 0 -125px;
+  background-position: 0 -299px;
   height: 22px;
   width: 115px;
 }
 
 .icon-ideo {
-  background-position: 0 -1178px;
+  background-position: 0 -1437px;
   height: 18px;
   width: 80px;
 }
 
 .icon-apple {
-  background-position: 0 -152px;
+  background-position: 0 -326px;
   height: 29px;
   width: 24px;
 }
 
 .icon-google {
-  background-position: 0 -1104px;
+  background-position: 0 -1363px;
   height: 29px;
   width: 88px;
 }
 
 .icon-facebook {
-  background-position: 0 -1045px;
+  background-position: 0 -1219px;
   height: 20px;
   width: 96px;
 }
 
 .icon-ford {
-  background-position: 0 -1070px;
+  background-position: 0 -1329px;
   height: 29px;
   width: 73px;
 }
 
 .icon-walmart {
-  background-position: 0 -1381px;
+  background-position: 0 -1640px;
   height: 27px;
   width: 112px;
 }
 
 .icon-netflix {
-  background-position: 0 -1232px;
+  background-position: 0 -1491px;
   height: 24px;
   width: 85px;
 }
 
 .icon-samsung {
-  background-position: 0 -1296px;
+  background-position: 0 -1555px;
   height: 18px;
   width: 120px;
 }
 
 .icon-calendar {
-  background-position: 0 -887px;
+  background-position: 0 -1061px;
   height: 12px;
   width: 14px;
 }
 
 .icon-check {
-  background-position: 0 -904px;
+  background-position: 0 -1078px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
 }
 
 .icon-btn {
-  background-position: 0 -870px;
+  background-position: 0 -1044px;
   height: 12px;
   width: 17px;
   margin-right: 23px;
 }
 
 .icon-choovak {
-  background-position: 0 -921px;
+  background-position: 0 -1095px;
   height: 84px;
   width: 54px;
 }
@@ -375,9 +375,27 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
   width: 54px;
 }
 
+.icon-five {
+  background-position: 0 -1244px;
+  height: 80px;
+  width: 89px;
+}
+
+.icon-70 {
+  background-position: 0 -176px;
+  height: 82px;
+  width: 154px;
+}
+
+.icon-10 {
+  background-position: 0 -89px;
+  height: 82px;
+  width: 151px;
+}
+
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -1408,7 +1426,6 @@ body {
   width: 33.4%;
   text-align: right;
   padding-top: 59px;
-  padding-right: 169px;
 }
 .about__top__left__head {
   color: #ffffff;
@@ -1416,6 +1433,9 @@ body {
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
+  width: 82%;
+  text-align: left;
+  float: right;
 }
 .about__top__right {
   width: 100%;
@@ -1471,6 +1491,61 @@ body {
   width: 60%;
   display: inline-block;
 }
+.about__midd {
+  display: table-row;
+}
+.about__midd__head {
+  color: #ffffff;
+  font-family: "FSElliotProLightThin","Arial", "sans-serif";
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 32px;
+  width: 82%;
+  text-align: left;
+  float: right;
+}
+.about__midd__left {
+  display: table-cell;
+  background-color: #212121;
+  width: 33.4%;
+  text-align: right;
+}
+.about__midd__right {
+  display: table-cell;
+  background-color: #ffffff;
+  padding-left: 160px;
+  position: relative;
+}
+.about__midd__right:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  border-top: 1px solid #ff4910;
+  width: 200%;
+  left: -41%;
+  max-width: 1280px;
+}
+.about__midd__right__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+.about__midd__right__inner__row {
+  display: table-row;
+}
+.about__midd__right__inner__item {
+  width: 33%;
+  display: table-cell;
+}
+.about__midd__right__inner .big-num {
+  padding: 40px 0 5px 0;
+}
+.about__midd__right__inner .descrip {
+  font-size: 15px;
+  font-family: "FSElliotPro","Arial", "sans-serif";
+  color: #ff3d00;
+  width: 100%;
+  padding-right: 80px;
+}
 .about__bott {
   display: table-row;
 }
@@ -1484,10 +1559,11 @@ body {
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
-  width: 240px;
-  float: right;
-  margin-right: 163px;
   margin-top: 50px;
+  width: 82%;
+  text-align: left;
+  float: right;
+  padding-right: 150px;
 }
 .about__bott__right {
   display: table-cell;
@@ -1567,10 +1643,11 @@ body {
   font-size: 28px;
   font-weight: 100;
   line-height: 32px;
-  width: 240px;
+  width: 82%;
+  text-align: left;
   float: right;
-  margin-right: 163px;
   margin-top: 50px;
+  padding-right: 120px;
 }
 .about-hide__bott__right {
   display: table-cell;
@@ -2324,6 +2401,7 @@ a.mega-link:before {
   }
   .about__top__left__head {
     font-size: 38px;
+    float: none;
   }
   .about__top__right {
     display: block;
@@ -2346,6 +2424,30 @@ a.mega-link:before {
     content: '';
     top: 33px;
   }
+  .about__midd {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .about__midd__left {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0 50px 30px;
+  }
+  .about__midd__head {
+    font-size: 38px;
+    float: none;
+  }
+  .about__midd__right {
+    display: block;
+    width: 100%;
+  }
+  .about__midd__right__inner .descrip {
+    font-size: 25px;
+    line-height: 25px;
+  }
   .about__bott__left {
     display: block;
     width: 100%;
@@ -2357,6 +2459,7 @@ a.mega-link:before {
     line-height: 42px;
     display: inline-block;
     margin: 50px 0 90px 40px;
+    float: none;
   }
   .about__bott__right {
     display: block;

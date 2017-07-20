@@ -693,13 +693,15 @@ body
       width: 33.4%;
       text-align: right;
       padding-top: 59px;
-      padding-right: 169px;
       &__head{
         color: #ffffff;
         font-family: "FSElliotProLightThin","Arial", "sans-serif";
         font-size: 28px;
         font-weight: 100;
         line-height: 32px;
+        width: 82%;
+        text-align: left;
+        float: right;
       }
     }
     &__right{
@@ -757,6 +759,63 @@ body
       }
     }
   }
+
+  &__midd{
+    display: table-row;
+    &__head{
+      color: #ffffff;
+      font-family: "FSElliotProLightThin","Arial", "sans-serif";
+      font-size: 28px;
+      font-weight: 100;
+      line-height: 32px;
+      width: 82%;
+      text-align: left;
+      float: right;
+    }
+    &__left{
+      display: table-cell;
+      background-color: #212121;
+      width: 33.4%;
+      text-align: right;
+    }
+    &__right{
+      display: table-cell;
+      background-color: #ffffff;
+      padding-left: 160px;
+      position: relative;
+      &:before{
+        content: '';
+        position: absolute;
+        height: 1px;
+        border-top: 1px solid #ff4910;
+        width: 200%;
+        left: -41%;
+        max-width: 1280px;
+      }
+      &__inner{
+        width: 100%;
+        margin: 0 auto;
+        &__row{
+          display: table-row;
+        }
+        &__item{
+          width: 33%;
+          display: table-cell;
+        }
+        .big-num{
+          padding: 40px 0 5px 0;
+        }
+        .descrip{
+          font-size: 15px;
+          font-family: "FSElliotPro","Arial", "sans-serif";
+          color: #ff3d00;
+          width: 100%;
+          padding-right: 80px;
+        }
+      }
+    }
+  }
+
   &__bott{
     display: table-row;
     &__left{
@@ -768,10 +827,12 @@ body
         font-size: 28px;
         font-weight: 100;
         line-height: 32px;
-        width: 240px;
-        float: right;
-        margin-right: 163px;
         margin-top: 50px;
+        width: 82%;
+        text-align: left;
+        float: right;
+        padding-right: 150px;
+
       }
     }
     &__right{
@@ -852,10 +913,11 @@ body
         font-size: 28px;
         font-weight: 100;
         line-height: 32px;
-        width: 240px;
+        width: 82%;
+        text-align: left;
         float: right;
-        margin-right: 163px;
         margin-top: 50px;
+        padding-right: 120px;
       }
     }
     &__right{
