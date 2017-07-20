@@ -44,6 +44,11 @@ body
           display: none;
           font-family: "FS Elliot Pro","Arial", "sans-serif";
           font-size: 16px;
+          &:hover{
+            background-color: #ff3d00;
+            border-color: #ff3d00;
+            color: #ffffff;
+          }
         }
       }
       &__right{
@@ -54,7 +59,14 @@ body
       }
       &__lang{
         display: table-cell;
-        width: 8%;
+        width: 7%;
+        .top__header__list{
+          position: relative;
+          bottom: 1px;
+          &__item{
+            margin: 0 5px;
+          }
+        }
       }
     }
     &__list{
@@ -66,7 +78,7 @@ body
         line-height: 36px;
         text-transform: uppercase;
         float: left;
-        margin: 0 10px;
+        margin: 0 9px;
         &_ua{
           position: relative;
           &:before{
@@ -75,7 +87,7 @@ body
             height: 25px;
             width: 1px;
             border-left: 1px solid #898989;
-            left: -10px;
+            left: -7px;
             top: 5px;
           }
         }
@@ -1222,6 +1234,7 @@ body
       vertical-align: top;
       padding: 18px 20px;
       width: 16.667%;
+      text-decoration: none;
       &__head{
         padding-bottom: 80px;
         .date{

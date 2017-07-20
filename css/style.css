@@ -770,6 +770,11 @@ body {
   font-family: "FS Elliot Pro","Arial", "sans-serif";
   font-size: 16px;
 }
+.top__header__inner__btn .header-btn:hover {
+  background-color: #ff3d00;
+  border-color: #ff3d00;
+  color: #ffffff;
+}
 .top__header__inner__right {
   display: table-cell;
   width: 45%;
@@ -778,7 +783,14 @@ body {
 }
 .top__header__inner__lang {
   display: table-cell;
-  width: 8%;
+  width: 7%;
+}
+.top__header__inner__lang .top__header__list {
+  position: relative;
+  bottom: 1px;
+}
+.top__header__inner__lang .top__header__list__item {
+  margin: 0 5px;
 }
 .top__header__list {
   display: inline-block;
@@ -790,7 +802,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   float: left;
-  margin: 0 10px;
+  margin: 0 9px;
 }
 .top__header__list__item_ua {
   position: relative;
@@ -801,7 +813,7 @@ body {
   height: 25px;
   width: 1px;
   border-left: 1px solid #898989;
-  left: -10px;
+  left: -7px;
   top: 5px;
 }
 .top__header__list__item a {
@@ -1924,6 +1936,7 @@ body {
   vertical-align: top;
   padding: 18px 20px;
   width: 16.667%;
+  text-decoration: none;
 }
 .more__table .more__item__head {
   padding-bottom: 80px;
