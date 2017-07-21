@@ -17,12 +17,20 @@ body
   margin: 0 auto 100px auto;
   width: 100%;
   &__header{
-    width: 100%;
     max-width: 1920px;
     margin: 0 auto;
     position: fixed;
     z-index: 9999;
     min-width: 1280px;
+    position: fixed;
+    z-index: 9999;
+    min-width: 1280px;
+    right: 0px;
+    left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    /* min-height: 10em; */
+    width: 100%;
     &__inner{
       width: 100%;
       max-width: 1440px;

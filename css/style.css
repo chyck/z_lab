@@ -781,12 +781,20 @@ body {
   width: 100%;
 }
 .top__header {
-  width: 100%;
   max-width: 1920px;
   margin: 0 auto;
   position: fixed;
   z-index: 9999;
   min-width: 1280px;
+  position: fixed;
+  z-index: 9999;
+  min-width: 1280px;
+  right: 0px;
+  left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  /* min-height: 10em; */
+  width: 100%;
 }
 .top__header__inner {
   width: 100%;
