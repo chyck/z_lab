@@ -1,8 +1,9 @@
 $( document ).ready(function() {
 
-    $topPart = $('.about-hide__top__right').outerHeight(true);
-    $bottPart = $('.about-hide__bott__right').outerHeight(true);
+
     $('.js-btn').click(function () {
+        $topPart = $('.about-hide__top__right').outerHeight(true),
+        $bottPart = $('.about-hide__bott__right').outerHeight(true),
         table = $('.js-about-hide');
         table.toggleClass('active-table');
         if (table.hasClass('active-table')){
