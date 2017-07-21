@@ -29,6 +29,7 @@ body
       margin: 0 auto;
       display: table;
       border-bottom: 2px solid #212121;
+      position: relative;
       &__left{
         display: table-cell;
         width: 20%;
@@ -63,6 +64,7 @@ body
       &__lang{
         display: table-cell;
         width: 7%;
+        position: relative;
         .top__header__list{
           position: relative;
           bottom: 1px;
@@ -70,6 +72,16 @@ body
             margin: 0 5px;
           }
         }
+      }
+      .icon-zeo-logo{
+        position: absolute;
+        top: 80px;
+        left: 0;
+      }
+      .icon-y-logo{
+        position: absolute;
+        left: 45px;
+        top: 84px;
       }
     }
     &__list{
@@ -733,6 +745,19 @@ body
           width: 15%;
           vertical-align: top;
           padding-top: 20px;
+          position: relative;
+          .icon-y-small{
+            position: absolute;
+            position: absolute;
+            left: 43px;
+            top: 68px;
+          }
+          .icon-zeo-small{
+            position: absolute;
+            position: absolute;
+            left: 43px;
+            top: 68px;
+          }
         }
         .positin{
           display: table-cell;

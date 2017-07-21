@@ -1,9 +1,9 @@
-.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
-  background-image: url('../images/sprites/icons-s2b3b8e7c26.png');
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
+  background-image: url('../images/sprites/icons-s91b523ff69.png');
   background-repeat: no-repeat;
 }
 
-.inline-block, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10 {
+.inline-block, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -159,4 +159,28 @@
   background-position: 0 -89px;
   height: 82px;
   width: 151px;
+}
+
+.icon-zeo-logo {
+  background-position: 0 -1713px;
+  height: 26px;
+  width: 34px;
+}
+
+.icon-y-logo {
+  background-position: 0 -1672px;
+  height: 19px;
+  width: 31px;
+}
+
+.icon-y-small {
+  background-position: 0 -1696px;
+  height: 12px;
+  width: 21px;
+}
+
+.icon-zeo-small {
+  background-position: 0 -1744px;
+  height: 17px;
+  width: 23px;
 }
