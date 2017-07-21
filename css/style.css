@@ -746,6 +746,8 @@ body {
 
 .wrapper {
   background-color: #f6f6f6;
+  min-width: 1280px;
+  overflow: hidden;
 }
 
 .top {
@@ -760,6 +762,7 @@ body {
   margin: 0 auto;
   position: fixed;
   z-index: 9999;
+  min-width: 1280px;
 }
 .top__header__inner {
   width: 100%;
@@ -2198,7 +2201,7 @@ a.mega-link:before {
   opacity: .29;
 }
 
-@media (max-width: 1280px) {
+@media (max-device-width: 1280px) {
   .wrapper {
     overflow: hidden;
   }

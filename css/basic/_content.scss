@@ -8,6 +8,8 @@ body
 }
 .wrapper{
   background-color: #f6f6f6;
+  min-width: 1280px;
+  overflow: hidden;
 }
 .top{
   display: table;
@@ -20,6 +22,7 @@ body
     margin: 0 auto;
     position: fixed;
     z-index: 9999;
+    min-width: 1280px;
     &__inner{
       width: 100%;
       max-width: 1440px;

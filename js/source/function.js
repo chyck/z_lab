@@ -91,4 +91,7 @@ $( document ).ready(function() {
         })
 
     });
+    $(window).scroll(function(){
+        $('.js-header').css('left', 0 - $(this).scrollLeft());
+    });
 });
