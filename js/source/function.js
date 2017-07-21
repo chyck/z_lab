@@ -7,6 +7,9 @@ $( document ).ready(function() {
         table = $('.js-about-hide');
         table.toggleClass('active-table');
         if (table.hasClass('active-table')){
+            table.animate({
+                height: $topPart + $bottPart
+            }, 800)
             if($('html').attr('lang') == 'ru'){
                 $('.js-btn .change-text').text('Свернуть');
             }
@@ -19,11 +22,11 @@ $( document ).ready(function() {
             $('.js-ocon').css({
                 transform: 'rotate(-90deg)'
             })
-            table.animate({
-                height: $topPart + $bottPart
-            }, 800)
         }
         else {
+            table.animate({
+                height: 0
+            }, 800)
             $('.js-ocon').css({
                 transform: 'rotate(0deg)'
             })
@@ -36,9 +39,6 @@ $( document ).ready(function() {
             else if($('html').attr('lang') == 'en'){
                 $('.js-btn .change-text').text('Learn more');
             }
-            table.animate({
-                height: 0
-            }, 800)
         }
     })
     $('a[href^="#"]').click(function(){
