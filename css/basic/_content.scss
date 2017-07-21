@@ -890,12 +890,10 @@ body
 }
 
 .about-hide{
-  display: block;
+  display: table;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  height: 0;
-  overflow: hidden;
   &__top{
     display: table-row;
     &__left{
@@ -971,6 +969,13 @@ body
       }
     }
   }
+}
+.about-hide__wrapp{
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 .table-for-btn{

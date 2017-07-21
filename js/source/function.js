@@ -4,12 +4,15 @@ $( document ).ready(function() {
     $('.js-btn').click(function () {
         $topPart = $('.about-hide__top__right').outerHeight(true),
         $bottPart = $('.about-hide__bott__right').outerHeight(true),
+        tableWrapp = $('.js-about-hide-wrapp'),
+        tableHeight = $('.js-about-hide').outerHeight(true),
         table = $('.js-about-hide');
         table.toggleClass('active-table');
         if (table.hasClass('active-table')){
-            table.animate({
-                height: $topPart + $bottPart
-            }, 800)
+            tableWrapp.animate({
+                height: tableHeight
+            }, 800);
+            console.log('1');
             if($('html').attr('lang') == 'ru'){
                 $('.js-btn .change-text').text('Свернуть');
             }
@@ -24,9 +27,9 @@ $( document ).ready(function() {
             })
         }
         else {
-            table.animate({
+            tableWrapp.animate({
                 height: 0
-            }, 800)
+            }, 800);
             $('.js-ocon').css({
                 transform: 'rotate(0deg)'
             })
