@@ -789,11 +789,11 @@ body {
   position: fixed;
   z-index: 9999;
   min-width: 1280px;
+  top: 0;
   right: 0px;
   left: 0px;
   margin-right: auto;
   margin-left: auto;
-  /* min-height: 10em; */
   width: 100%;
 }
 .top__header__inner {
@@ -1045,22 +1045,20 @@ body {
   padding-top: 35px;
 }
 .about-lab__bottom__right .help {
-  color: #898989;
-  font-family: "FSElliotProLight","Arial", "sans-serif";
+  color: #212121;
+  font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 19px;
   font-weight: 300;
   line-height: 25px;
-  float: left;
-  width: 25%;
+  width: 80%;
+  margin-top: 30px;
 }
 .about-lab__bottom__right .members {
   color: #212121;
   font-family: "FSElliotPro","Arial", "sans-serif";
   font-size: 16px;
   line-height: 27px;
-  float: right;
-  width: 75%;
-  padding-left: 80px;
+  width: 100%;
 }
 .about-lab__bottom__right .members-top {
   display: block;
@@ -2262,6 +2260,15 @@ a.mega-link:before {
   bottom: 1px;
   z-index: 5;
   opacity: .29;
+}
+a.mega-link_pl {
+  font-family: "FSElliotPro","Arial", "sans-serif";
+}
+a.mega-link_pl:before {
+  content: '';
+  opacity: 1;
+  height: 0;
+  width: 0;
 }
 
 @media (max-device-width: 1280px) {
