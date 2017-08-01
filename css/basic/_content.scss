@@ -611,8 +611,9 @@ body
     margin-top: 66px;
     &__row{
       display: table-row;
+      text-align: center;
       &__item{
-        display: table-cell;
+        display: inline-block;
         text-align: center;
         position: relative;
         color: #9c9c9c;

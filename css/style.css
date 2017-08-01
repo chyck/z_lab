@@ -12,7 +12,7 @@
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -228,14 +228,14 @@ select:focus:required:invalid:focus {
   box-shadow: 0 0 6px #f8b9b7;
 }
 
-.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
+.icons-sprite, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
   background-image: url('../images/sprites/icons-s91b523ff69.png');
   background-repeat: no-repeat;
 }
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -359,20 +359,23 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 }
 
 .icon-choovak {
-  background-position: 0 -1095px;
-  height: 84px;
   width: 54px;
+  height: 84px;
+  display: block;
+  margin: 0 auto;
 }
-.icon-choovak:hover {
-  background-position: 0 0;
-  height: 84px;
-  width: 54px;
+.icon-choovak_w {
+  width: 80px;
+}
+.icon-choovak .cls-1 {
+  color: #c5c4c4;
+}
+.icon-choovak:hover .cls-1 {
+  fill: #ff4910;
 }
 
-.active-choovak {
-  background-position: 0 0;
-  height: 84px;
-  width: 54px;
+.active-choovak .cls-1 {
+  fill: #ff4910;
 }
 
 .icon-five {
@@ -419,7 +422,7 @@ video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, 
 
 .inline-block, audio,
 canvas,
-video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-choovak, .icon-choovak:hover, .active-choovak, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
+video, .icon-unilever, .icon-h, .icon-north-face, .icon-slash, .icon-coca-cola, .icon-air-bnb, .icon-jetblue, .icon-amazon, .icon-ideo, .icon-apple, .icon-google, .icon-facebook, .icon-ford, .icon-walmart, .icon-netflix, .icon-samsung, .icon-calendar, .icon-check, .icon-btn, .icon-five, .icon-70, .icon-10, .icon-zeo-logo, .icon-y-logo, .icon-y-small, .icon-zeo-small {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -1372,9 +1375,10 @@ body {
 }
 .team__table__row {
   display: table-row;
+  text-align: center;
 }
 .team__table__row__item {
-  display: table-cell;
+  display: inline-block;
   text-align: center;
   position: relative;
   color: #9c9c9c;

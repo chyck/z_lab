@@ -59,13 +59,29 @@
   margin-right: 23px;
 }
 .icon-choovak{
-  @include ib-icons(icon-choovak);
-  &:hover{
-    @include ib-icons(hover);
+  width: 54px;
+  height: 84px;
+  //@include ib-icons(icon-choovak);
+  display: block;
+  margin: 0 auto;
+  &_w{
+    width: 80px;
   }
+  .cls-1{
+    color: #c5c4c4;
+  }
+  &:hover{
+  //  @include ib-icons(hover);
+    .cls-1{
+       fill: #ff4910;
+    }
+  }
+
 }
 .active-choovak{
-  @include ib-icons(hover);
+  .cls-1{
+    fill: #ff4910;
+  }
 }
 .icon-five{
   @include ib-icons(icon-five);
